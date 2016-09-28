@@ -23,7 +23,7 @@ public class PersonController {
 
     @RequestMapping("/")
     @ResponseBody
-    public String test() {
+    public String test2() {
         Person person = new Person();
         person.setFirstName("First");
         person.setLastName("Test");
